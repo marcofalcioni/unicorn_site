@@ -1,0 +1,3 @@
+[run]
+source = unicorn_site
+omit = unicorn_site/test*
