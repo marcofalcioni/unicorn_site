@@ -1,0 +1,24 @@
+{
+  "name": "unicorn_site",
+  "version": "0.0.0",
+  "description": "A package to learn about packages",
+  "author": {
+    "name": "Marco Falcioni",
+    "email": "marcofalcioni@gmail.com",
+    "url": "https://marcosan.hopto.org"
+  },
+  "repository": "github:marcofalcioni/unicorn_site",
+  "private": true,
+  "bugs": "https://github.com/marcofalcioni/unicorn_site/issues",
+  "license": "unlicense",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.25.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
