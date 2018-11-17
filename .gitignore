@@ -8,6 +8,7 @@ __pycache__/
 .idea/
 .npm/
 node_modules/
+dist/main.js
 
 # Distribution / packaging
 .Python
