@@ -1,3 +1,5 @@
+import site
+site.addsitedir('/home/pi/home_site/lib/python3.5/site-packages')
 from pyramid.config import Configurator
 
 
