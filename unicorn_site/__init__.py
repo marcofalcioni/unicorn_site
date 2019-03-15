@@ -1,7 +1,11 @@
 import site
-site.addsitedir('/home/pi/home_site/lib/python3.5/site-packages')
+from logging import getLogger, basicConfig
 from pyramid.config import Configurator
 
+
+_LOGGER = getLogger(__name__)
+
+_LOGGER.warn("got here")
 
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
@@ -12,3 +16,4 @@ def main(global_config, **settings):
     config.include('.routes')
     config.scan()
     return config.make_wsgi_app()
+
